@@ -1,9 +1,10 @@
+import SimpleForm from "./components/SimpleForm/SimpleForm"
 
 
 function App() {
   return (
     <div>
-       <h1 className="text-4xl">App</h1>
+      <SimpleForm></SimpleForm>
     </div>
   )
 }
