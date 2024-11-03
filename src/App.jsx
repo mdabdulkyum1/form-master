@@ -3,6 +3,7 @@ import StateFulForm from "./components/StateFulForm/StateFulForm"
 import RefForm from './components/RefForm/RefForm';
 import HookForm from './components/HookFrom/HookForm';
 import ReusableForm from "./components/ReusableForm/ReusableForm";
+import Grandpa from "./components/Grandpa/Grandpa";
 
 
 function App() {
@@ -24,6 +25,9 @@ function App() {
            <p className="font-bold">Login form</p>
         </div>
       </ReusableForm>
+
+
+      <Grandpa></Grandpa>
     </div>
   )
 }
